@@ -1,18 +1,27 @@
 {
-    "name": "holydayzer_api",
-    "version": "1.0.0",
-    "type": "module",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "Lucas Azzolini Vieira",
-    "license": "ISC",
-    "dependencies": {
-        "chalk": "^5.0.0",
-        "cors": "^2.8.5",
-        "express": "^4.17.2"
-    }
+  "name": "holydayzer_api",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Back-end application implemented to consult on a calendar of holidays. First time making a ```back-end``` application and using libs like ```express```, ```cors``` and ```chalk```.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lucas Azzolini Vieira",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas-zz/Holydayzer_API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lucas-zz/Holydayzer_API/issues"
+  },
+  "homepage": "https://github.com/Lucas-zz/Holydayzer_API#readme"
 }
