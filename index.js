@@ -1,6 +1,6 @@
 import express from 'express';
-import cors from 'cors';
 import chalk from 'chalk';
+import cors from 'cors';
 
 import { holidays } from "./holidays.js";
 
