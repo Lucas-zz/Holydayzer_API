@@ -24,11 +24,11 @@ app.get("/is-today-holiday", (request, response) => {
     }
 });
 
-app.get("holidays/:month", (request, response) => {
-    const monthHolidays = holidays.filter(holiday => holiday.date.split("/")[0] === request.params.month)
+// app.get("holidays/:month", (request, response) => {
+//     const monthHolidays = holidays.filter(holiday => holiday.date.split("/")[0] === request.params.month)
 
-    response.send(monthHolidays);
-})
+//     response.send(monthHolidays);
+// })
 
 app.listen(port, () => {
     console.log(`Servidor ${chalk.bgGreen(chalk.black(' ON '))} - Porta ${chalk.magenta(port)} - ${chalk.blue(`http://localhost:${port}/holidays`)}`);
