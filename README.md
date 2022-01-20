@@ -6,7 +6,7 @@ First time making a ```back-end``` application and using libs like ```express```
 ## About
 
 This api has the following features:
-  - 
+  - to be made
   
 ## How to run
 
